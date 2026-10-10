@@ -1,0 +1,825 @@
+{
+ "muestra": {
+  "Deloitte": 2000,
+  "PwC": 2000,
+  "EY": 2000,
+  "KPMG": 2000
+ },
+ "poblacion": {
+  "Deloitte": 40187,
+  "PwC": 33546,
+  "EY": 31629,
+  "KPMG": 25749
+ },
+ "eda": {
+  "Deloitte": {
+   "n_resenas": 40187,
+   "rating_medio": 3.902,
+   "pct_recomienda": 78.617,
+   "pct_si_sobre_total": 46.154,
+   "pct_sin_opinion": 41.292,
+   "pct_actuales": 70.005
+  },
+  "PwC": {
+   "n_resenas": 33546,
+   "rating_medio": 3.866,
+   "pct_recomienda": 77.545,
+   "pct_si_sobre_total": 39.057,
+   "pct_sin_opinion": 49.633,
+   "pct_actuales": 64.714
+  },
+  "EY": {
+   "n_resenas": 31629,
+   "rating_medio": 3.789,
+   "pct_recomienda": 76.153,
+   "pct_si_sobre_total": 46.707,
+   "pct_sin_opinion": 38.667,
+   "pct_actuales": 68.99
+  },
+  "KPMG": {
+   "n_resenas": 25749,
+   "rating_medio": 3.75,
+   "pct_recomienda": 73.992,
+   "pct_si_sobre_total": 38.86,
+   "pct_sin_opinion": 47.481,
+   "pct_actuales": 64.379
+  }
+ },
+ "actual_vs_antiguo": {
+  "Deloitte": {
+   "rating_actual": 3.994099456154694,
+   "rating_antiguo": 3.6881533101045294,
+   "rec_actual": 82.033527696793,
+   "rec_antiguo": 70.72520690138869
+  },
+  "PwC": {
+   "rating_actual": 3.958818923027316,
+   "rating_antiguo": 3.6954464813719694,
+   "rec_actual": 80.87377769803534,
+   "rec_antiguo": 71.09062445642721
+  },
+  "EY": {
+   "rating_actual": 3.867008844690894,
+   "rating_antiguo": 3.615314029363785,
+   "rec_actual": 79.53477969134421,
+   "rec_antiguo": 68.57667891747411
+  },
+  "KPMG": {
+   "rating_actual": 3.8500331785003317,
+   "rating_antiguo": 3.570322721325774,
+   "rec_actual": 77.88592123132639,
+   "rec_antiguo": 66.65244292724557
+  }
+ },
+ "rating_anual": {
+  "Deloitte": {
+   "2018": 3.852,
+   "2019": 3.848,
+   "2020": 3.861,
+   "2021": 3.891,
+   "2022": 3.998,
+   "2023": 3.994
+  },
+  "PwC": {
+   "2018": 3.703,
+   "2019": 3.771,
+   "2020": 3.875,
+   "2021": 3.886,
+   "2022": 3.893,
+   "2023": 3.892
+  },
+  "EY": {
+   "2018": 3.684,
+   "2019": 3.746,
+   "2020": 3.783,
+   "2021": 3.787,
+   "2022": 3.846,
+   "2023": 3.784
+  },
+  "KPMG": {
+   "2018": 3.667,
+   "2019": 3.684,
+   "2020": 3.753,
+   "2021": 3.731,
+   "2022": 3.817,
+   "2023": 3.748
+  }
+ },
+ "sentimiento": {
+  "Deloitte": {
+   "pct_pros_positivos": 95.45,
+   "pct_cons_negativos": 80.35
+  },
+  "PwC": {
+   "pct_pros_positivos": 95.25,
+   "pct_cons_negativos": 82.4
+  },
+  "EY": {
+   "pct_pros_positivos": 94.75,
+   "pct_cons_negativos": 80.95
+  },
+  "KPMG": {
+   "pct_pros_positivos": 93.35,
+   "pct_cons_negativos": 81.65
+  },
+  "Total": {
+   "pct_pros_positivos": 94.7,
+   "pct_cons_negativos": 81.34
+  }
+ },
+ "discordantes": {
+  "cons_positivos_pct": 18.6625,
+  "pros_negativos_pct": 5.3,
+  "tipos_cons_pos": {
+   "Frase corta o descriptiva sin carga negativa": 34.8,
+   "Queja redactada en tono positivo / sugerencia": 32.1,
+   "Queja suavizada o condicional (\"can be\", \"but\")": 18.5,
+   "Sin quejas reales (\"nothing\", \"none\")": 14.7
+  },
+  "tipos_pros_neg": {
+   "Otros (ironía, mezcla de pros y cons)": 31.1,
+   "Pro vacío (\"nothing\", \"none\")": 22.9,
+   "Frase corta o neutra (\"big company\", \"salary\")": 21.9,
+   "Pro expresado con negación (\"no micromanagement\")": 17.7,
+   "Elogio con matiz o contraste (\"but\")": 6.4
+  },
+  "rating_sin_quejas": 4.607305936073059
+ },
+ "outliers": {
+  "pros": {
+   "inicial_pct": 28.825,
+   "final_pct": 8.8375,
+   "umbral": 0.588666296005249,
+   "n_topics": 47
+  },
+  "cons": {
+   "inicial_pct": 28.762500000000003,
+   "final_pct": 9.6875,
+   "umbral": 0.5325766205787659,
+   "n_topics": 50
+  }
+ },
+ "categorias": {
+  "Compensación y beneficios": {
+   "topics_pros": 5.0,
+   "topics_cons": 6.0,
+   "%_pros": 9.98,
+   "%_cons": 18.27
+  },
+  "Conciliación y flexibilidad": {
+   "topics_pros": 5.0,
+   "topics_cons": 6.0,
+   "%_pros": 9.9,
+   "%_cons": 11.98
+  },
+  "Carga de trabajo y horarios": {
+   "topics_pros": 0.0,
+   "topics_cons": 17.0,
+   "%_pros": 0.0,
+   "%_cons": 25.04
+  },
+  "Dirección y management": {
+   "topics_pros": 2.0,
+   "topics_cons": 2.0,
+   "%_pros": 1.95,
+   "%_cons": 5.86
+  },
+  "Carrera y promoción": {
+   "topics_pros": 3.0,
+   "topics_cons": 3.0,
+   "%_pros": 4.18,
+   "%_cons": 4.0
+  },
+  "Aprendizaje y proyectos": {
+   "topics_pros": 11.0,
+   "topics_cons": 3.0,
+   "%_pros": 20.84,
+   "%_cons": 5.25
+  },
+  "Cultura y compañeros": {
+   "topics_pros": 8.0,
+   "topics_cons": 3.0,
+   "%_pros": 24.62,
+   "%_cons": 5.44
+  },
+  "Marca y prestigio": {
+   "topics_pros": 6.0,
+   "topics_cons": 0.0,
+   "%_pros": 8.64,
+   "%_cons": 0.0
+  },
+  "Procesos y organización": {
+   "topics_pros": 0.0,
+   "topics_cons": 3.0,
+   "%_pros": 0.0,
+   "%_cons": 3.08
+  },
+  "Rotación y estabilidad": {
+   "topics_pros": 0.0,
+   "topics_cons": 1.0,
+   "%_pros": 0.0,
+   "%_cons": 1.62
+  },
+  "Genérico / sin quejas": {
+   "topics_pros": 7.0,
+   "topics_cons": 5.0,
+   "%_pros": 11.06,
+   "%_cons": 8.88
+  },
+  "Otros": {
+   "topics_pros": 0.0,
+   "topics_cons": 1.0,
+   "%_pros": 0.0,
+   "%_cons": 0.9
+  },
+  "Sin clasificar": {
+   "topics_pros": 1.0,
+   "topics_cons": 1.0,
+   "%_pros": 8.84,
+   "%_cons": 9.69
+  }
+ },
+ "n_categorias_negocio": 10,
+ "comparacion": {
+  "Compensación y beneficios": {
+   "pros_Deloitte": 11.75,
+   "pros_peers": 9.383,
+   "cons_Deloitte": 15.2,
+   "cons_peers": 19.3,
+   "balance_Deloitte": -3.45,
+   "balance_peers": -9.917,
+   "gap_balance": 6.467,
+   "z": 5.091,
+   "significativo": true
+  },
+  "Carga de trabajo y horarios": {
+   "pros_Deloitte": 0.0,
+   "pros_peers": 0.0,
+   "cons_Deloitte": 20.6,
+   "cons_peers": 26.517,
+   "balance_Deloitte": -20.6,
+   "balance_peers": -26.517,
+   "gap_balance": 5.917,
+   "z": 5.534,
+   "significativo": true
+  },
+  "Cultura y compañeros": {
+   "pros_Deloitte": 25.15,
+   "pros_peers": 24.45,
+   "cons_Deloitte": 5.65,
+   "cons_peers": 5.367,
+   "balance_Deloitte": 19.5,
+   "balance_peers": 19.083,
+   "gap_balance": 0.417,
+   "z": 0.328,
+   "significativo": false
+  },
+  "Dirección y management": {
+   "pros_Deloitte": 1.6,
+   "pros_peers": 2.067,
+   "cons_Deloitte": 5.2,
+   "cons_peers": 6.083,
+   "balance_Deloitte": -3.6,
+   "balance_peers": -4.017,
+   "gap_balance": 0.417,
+   "z": 0.616,
+   "significativo": false
+  },
+  "Rotación y estabilidad": {
+   "pros_Deloitte": 0.0,
+   "pros_peers": 0.0,
+   "cons_Deloitte": 1.75,
+   "cons_peers": 1.583,
+   "balance_Deloitte": -1.75,
+   "balance_peers": -1.583,
+   "gap_balance": -0.167,
+   "z": -0.498,
+   "significativo": false
+  },
+  "Conciliación y flexibilidad": {
+   "pros_Deloitte": 10.55,
+   "pros_peers": 9.683,
+   "cons_Deloitte": 12.85,
+   "cons_peers": 11.683,
+   "balance_Deloitte": -2.3,
+   "balance_peers": -2.0,
+   "gap_balance": -0.3,
+   "z": -0.25,
+   "significativo": false
+  },
+  "Procesos y organización": {
+   "pros_Deloitte": 0.0,
+   "pros_peers": 0.0,
+   "cons_Deloitte": 3.5,
+   "cons_peers": 2.933,
+   "balance_Deloitte": -3.5,
+   "balance_peers": -2.933,
+   "gap_balance": -0.567,
+   "z": -1.218,
+   "significativo": false
+  },
+  "Carrera y promoción": {
+   "pros_Deloitte": 3.3,
+   "pros_peers": 4.467,
+   "cons_Deloitte": 4.9,
+   "cons_peers": 3.7,
+   "balance_Deloitte": -1.6,
+   "balance_peers": 0.767,
+   "gap_balance": -2.367,
+   "z": -3.268,
+   "significativo": true
+  },
+  "Marca y prestigio": {
+   "pros_Deloitte": 6.8,
+   "pros_peers": 9.25,
+   "cons_Deloitte": 0.0,
+   "cons_peers": 0.0,
+   "balance_Deloitte": 6.8,
+   "balance_peers": 9.25,
+   "gap_balance": -2.45,
+   "z": -3.624,
+   "significativo": true
+  },
+  "Aprendizaje y proyectos": {
+   "pros_Deloitte": 19.75,
+   "pros_peers": 21.2,
+   "cons_Deloitte": 6.7,
+   "cons_peers": 4.767,
+   "balance_Deloitte": 13.05,
+   "balance_peers": 16.433,
+   "gap_balance": -3.383,
+   "z": -2.811,
+   "significativo": true
+  }
+ },
+ "contraste_rating": {
+  "Dirección y management": {
+   "n_todas": 469,
+   "rating_todas": 3.29,
+   "pct_recomienda_todas": 53.082,
+   "n_Deloitte": 104,
+   "rating_Deloitte": 3.413,
+   "pct_recomienda_Deloitte": 56.522
+  },
+  "Cultura y compañeros": {
+   "n_todas": 435,
+   "rating_todas": 3.31,
+   "pct_recomienda_todas": 58.736,
+   "n_Deloitte": 113,
+   "rating_Deloitte": 3.513,
+   "pct_recomienda_Deloitte": 64.615
+  },
+  "Rotación y estabilidad": {
+   "n_todas": 130,
+   "rating_todas": 3.477,
+   "pct_recomienda_todas": 64.865,
+   "n_Deloitte": 35,
+   "rating_Deloitte": 3.6,
+   "pct_recomienda_Deloitte": 80.952
+  },
+  "Carrera y promoción": {
+   "n_todas": 320,
+   "rating_todas": 3.712,
+   "pct_recomienda_todas": 75.401,
+   "n_Deloitte": 98,
+   "rating_Deloitte": 3.663,
+   "pct_recomienda_Deloitte": 78.182
+  },
+  "Conciliación y flexibilidad": {
+   "n_todas": 958,
+   "rating_todas": 3.716,
+   "pct_recomienda_todas": 73.956,
+   "n_Deloitte": 257,
+   "rating_Deloitte": 3.798,
+   "pct_recomienda_Deloitte": 78.723
+  },
+  "Compensación y beneficios": {
+   "n_todas": 1462,
+   "rating_todas": 3.739,
+   "pct_recomienda_todas": 77.644,
+   "n_Deloitte": 304,
+   "rating_Deloitte": 3.773,
+   "pct_recomienda_Deloitte": 78.689
+  },
+  "Aprendizaje y proyectos": {
+   "n_todas": 420,
+   "rating_todas": 3.929,
+   "pct_recomienda_todas": 81.69,
+   "n_Deloitte": 134,
+   "rating_Deloitte": 4.037,
+   "pct_recomienda_Deloitte": 87.324
+  },
+  "Carga de trabajo y horarios": {
+   "n_todas": 2003,
+   "rating_todas": 3.96,
+   "pct_recomienda_todas": 84.24,
+   "n_Deloitte": 412,
+   "rating_Deloitte": 4.049,
+   "pct_recomienda_Deloitte": 86.056
+  },
+  "Procesos y organización": {
+   "n_todas": 246,
+   "rating_todas": 4.085,
+   "pct_recomienda_todas": 84.962,
+   "n_Deloitte": 70,
+   "rating_Deloitte": 4.3,
+   "pct_recomienda_Deloitte": 82.927
+  },
+  "Genérico / sin quejas": {
+   "n_todas": 710,
+   "rating_todas": 4.4,
+   "pct_recomienda_todas": 91.223,
+   "n_Deloitte": 239,
+   "rating_Deloitte": 4.255,
+   "pct_recomienda_Deloitte": 85.612
+  }
+ },
+ "media_rating_muestra": {
+  "todas": 3.8155,
+  "Deloitte": 3.894,
+  "rec_todas": 76.62367051369088,
+  "rec_Deloitte": 79.58833619210978
+ },
+ "salida": {
+  "Carga de trabajo y horarios": {
+   "Deloitte": 19.459,
+   "media_peers": 25.892,
+   "gap_pp": -6.432,
+   "z": -3.314,
+   "significativo": true
+  },
+  "Compensación y beneficios": {
+   "Deloitte": 14.414,
+   "media_peers": 16.987,
+   "gap_pp": -2.572,
+   "z": -1.507,
+   "significativo": false
+  },
+  "Conciliación y flexibilidad": {
+   "Deloitte": 11.171,
+   "media_peers": 12.84,
+   "gap_pp": -1.668,
+   "z": -1.091,
+   "significativo": false
+  },
+  "Cultura y compañeros": {
+   "Deloitte": 8.108,
+   "media_peers": 6.991,
+   "gap_pp": 1.117,
+   "z": 0.866,
+   "significativo": false
+  },
+  "Aprendizaje y proyectos": {
+   "Deloitte": 7.928,
+   "media_peers": 5.252,
+   "gap_pp": 2.676,
+   "z": 2.142,
+   "significativo": true
+  },
+  "Dirección y management": {
+   "Deloitte": 7.387,
+   "media_peers": 7.573,
+   "gap_pp": -0.186,
+   "z": -0.148,
+   "significativo": false
+  },
+  "Carrera y promoción": {
+   "Deloitte": 4.865,
+   "media_peers": 3.114,
+   "gap_pp": 1.751,
+   "z": 1.768,
+   "significativo": false
+  },
+  "Rotación y estabilidad": {
+   "Deloitte": 2.342,
+   "media_peers": 1.939,
+   "gap_pp": 0.403,
+   "z": 0.567,
+   "significativo": false
+  },
+  "Procesos y organización": {
+   "Deloitte": 2.162,
+   "media_peers": 2.501,
+   "gap_pp": -0.339,
+   "z": -0.479,
+   "significativo": false
+  },
+  "Marca y prestigio": {
+   "Deloitte": 0.0,
+   "media_peers": 0.0,
+   "gap_pp": 0.0,
+   "z": 0.0,
+   "significativo": false
+  }
+ },
+ "act_ant_deloitte": {
+  "Compensación y beneficios": {
+   "Actual": 15.502,
+   "Antiguo": 14.414,
+   "dif_antiguo_menos_actual": -1.087
+  },
+  "Conciliación y flexibilidad": {
+   "Actual": 13.495,
+   "Antiguo": 11.171,
+   "dif_antiguo_menos_actual": -2.324
+  },
+  "Carga de trabajo y horarios": {
+   "Actual": 21.038,
+   "Antiguo": 19.459,
+   "dif_antiguo_menos_actual": -1.579
+  },
+  "Dirección y management": {
+   "Actual": 4.36,
+   "Antiguo": 7.387,
+   "dif_antiguo_menos_actual": 3.028
+  },
+  "Carrera y promoción": {
+   "Actual": 4.913,
+   "Antiguo": 4.865,
+   "dif_antiguo_menos_actual": -0.049
+  },
+  "Aprendizaje y proyectos": {
+   "Actual": 6.228,
+   "Antiguo": 7.928,
+   "dif_antiguo_menos_actual": 1.7
+  },
+  "Cultura y compañeros": {
+   "Actual": 4.706,
+   "Antiguo": 8.108,
+   "dif_antiguo_menos_actual": 3.402
+  },
+  "Marca y prestigio": {
+   "Actual": 0.0,
+   "Antiguo": 0.0,
+   "dif_antiguo_menos_actual": 0.0
+  },
+  "Procesos y organización": {
+   "Actual": 4.014,
+   "Antiguo": 2.162,
+   "dif_antiguo_menos_actual": -1.852
+  },
+  "Rotación y estabilidad": {
+   "Actual": 1.522,
+   "Antiguo": 2.342,
+   "dif_antiguo_menos_actual": 0.82
+  }
+ },
+ "matriz": {
+  "Dirección y management": {
+   "cons_Deloitte": 5.2,
+   "gap_balance": 0.417,
+   "significativo": false,
+   "desventaja": -0.417,
+   "cuadrante": "Mantener / explotar"
+  },
+  "Cultura y compañeros": {
+   "cons_Deloitte": 5.65,
+   "gap_balance": 0.417,
+   "significativo": false,
+   "desventaja": -0.417,
+   "cuadrante": "Mantener / explotar"
+  },
+  "Conciliación y flexibilidad": {
+   "cons_Deloitte": 12.85,
+   "gap_balance": -0.3,
+   "significativo": false,
+   "desventaja": 0.3,
+   "cuadrante": "Prioridad alta"
+  },
+  "Carga de trabajo y horarios": {
+   "cons_Deloitte": 20.6,
+   "gap_balance": 5.917,
+   "significativo": true,
+   "desventaja": -5.917,
+   "cuadrante": "Problema de sector"
+  },
+  "Compensación y beneficios": {
+   "cons_Deloitte": 15.2,
+   "gap_balance": 6.467,
+   "significativo": true,
+   "desventaja": -6.467,
+   "cuadrante": "Problema de sector"
+  },
+  "Aprendizaje y proyectos": {
+   "cons_Deloitte": 6.7,
+   "gap_balance": -3.383,
+   "significativo": true,
+   "desventaja": 3.383,
+   "cuadrante": "Vigilar"
+  },
+  "Marca y prestigio": {
+   "cons_Deloitte": 0.0,
+   "gap_balance": -2.45,
+   "significativo": true,
+   "desventaja": 2.45,
+   "cuadrante": "Vigilar"
+  },
+  "Carrera y promoción": {
+   "cons_Deloitte": 4.9,
+   "gap_balance": -2.367,
+   "significativo": true,
+   "desventaja": 2.367,
+   "cuadrante": "Vigilar"
+  },
+  "Procesos y organización": {
+   "cons_Deloitte": 3.5,
+   "gap_balance": -0.567,
+   "significativo": false,
+   "desventaja": 0.567,
+   "cuadrante": "Vigilar"
+  },
+  "Rotación y estabilidad": {
+   "cons_Deloitte": 1.75,
+   "gap_balance": -0.167,
+   "significativo": false,
+   "desventaja": 0.167,
+   "cuadrante": "Vigilar"
+  }
+ },
+ "periodo_cons": {
+  "Deloitte|2020 en adelante": {
+   "Carga de trabajo y horarios": 21.066,
+   "Compensación y beneficios": 15.126,
+   "Conciliación y flexibilidad": 13.35,
+   "Aprendizaje y proyectos": 7.226,
+   "Cultura y compañeros": 5.328,
+   "Carrera y promoción": 5.021,
+   "Dirección y management": 4.715,
+   "Procesos y organización": 3.552,
+   "Rotación y estabilidad": 1.653,
+   "Marca y prestigio": 0.0
+  },
+  "Deloitte|Antes de 2020": {
+   "Carga de trabajo y horarios": 18.529,
+   "Compensación y beneficios": 15.531,
+   "Conciliación y flexibilidad": 10.627,
+   "Aprendizaje y proyectos": 4.36,
+   "Cultura y compañeros": 7.084,
+   "Carrera y promoción": 4.36,
+   "Dirección y management": 7.357,
+   "Procesos y organización": 3.27,
+   "Rotación y estabilidad": 2.18,
+   "Marca y prestigio": 0.0
+  },
+  "Media peers|2020 en adelante": {
+   "Carga de trabajo y horarios": 26.425,
+   "Compensación y beneficios": 19.603,
+   "Conciliación y flexibilidad": 11.802,
+   "Aprendizaje y proyectos": 4.865,
+   "Cultura y compañeros": 5.161,
+   "Carrera y promoción": 3.528,
+   "Dirección y management": 5.558,
+   "Procesos y organización": 2.868,
+   "Rotación y estabilidad": 1.555,
+   "Marca y prestigio": 0.0
+  },
+  "Media peers|Antes de 2020": {
+   "Carga de trabajo y horarios": 27.05,
+   "Compensación y beneficios": 17.702,
+   "Conciliación y flexibilidad": 11.059,
+   "Aprendizaje y proyectos": 4.287,
+   "Cultura y compañeros": 6.395,
+   "Carrera y promoción": 4.603,
+   "Dirección y management": 8.796,
+   "Procesos y organización": 3.257,
+   "Rotación y estabilidad": 1.732,
+   "Marca y prestigio": 0.0
+  },
+  "Deloitte|cambio": {
+   "Carga de trabajo y horarios": 2.537,
+   "Compensación y beneficios": -0.406,
+   "Conciliación y flexibilidad": 2.723,
+   "Aprendizaje y proyectos": 2.866,
+   "Cultura y compañeros": -1.757,
+   "Carrera y promoción": 0.662,
+   "Dirección y management": -2.642,
+   "Procesos y organización": 0.282,
+   "Rotación y estabilidad": -0.526,
+   "Marca y prestigio": 0.0
+  },
+  "Media peers|cambio": {
+   "Carga de trabajo y horarios": -0.626,
+   "Compensación y beneficios": 1.901,
+   "Conciliación y flexibilidad": 0.743,
+   "Aprendizaje y proyectos": 0.578,
+   "Cultura y compañeros": -1.234,
+   "Carrera y promoción": -1.074,
+   "Dirección y management": -3.237,
+   "Procesos y organización": -0.389,
+   "Rotación y estabilidad": -0.177,
+   "Marca y prestigio": 0.0
+  }
+ },
+ "antiguedad": {
+  "< 1 año": {
+   "Compensación y beneficios": 14.6,
+   "Conciliación y flexibilidad": 9.29,
+   "Carga de trabajo y horarios": 23.45,
+   "Dirección y management": 3.98,
+   "Carrera y promoción": 0.88,
+   "Aprendizaje y proyectos": 8.85,
+   "Cultura y compañeros": 6.64,
+   "Marca y prestigio": 0.0,
+   "Procesos y organización": 3.54,
+   "Rotación y estabilidad": 2.21
+  },
+  "1-3 años": {
+   "Compensación y beneficios": 17.97,
+   "Conciliación y flexibilidad": 12.55,
+   "Carga de trabajo y horarios": 18.83,
+   "Dirección y management": 6.28,
+   "Carrera y promoción": 4.33,
+   "Aprendizaje y proyectos": 8.66,
+   "Cultura y compañeros": 4.76,
+   "Marca y prestigio": 0.0,
+   "Procesos y organización": 2.81,
+   "Rotación y estabilidad": 0.65
+  },
+  "3-5 años": {
+   "Compensación y beneficios": 16.77,
+   "Conciliación y flexibilidad": 15.24,
+   "Carga de trabajo y horarios": 17.99,
+   "Dirección y management": 4.27,
+   "Carrera y promoción": 6.1,
+   "Aprendizaje y proyectos": 7.32,
+   "Cultura y compañeros": 6.71,
+   "Marca y prestigio": 0.0,
+   "Procesos y organización": 3.96,
+   "Rotación y estabilidad": 1.83
+  },
+  "> 5 años": {
+   "Compensación y beneficios": 9.57,
+   "Conciliación y flexibilidad": 12.44,
+   "Carga de trabajo y horarios": 21.05,
+   "Dirección y management": 7.66,
+   "Carrera y promoción": 10.53,
+   "Aprendizaje y proyectos": 4.78,
+   "Cultura y compañeros": 6.22,
+   "Marca y prestigio": 0.0,
+   "Procesos y organización": 3.83,
+   "Rotación y estabilidad": 3.83
+  }
+ },
+ "recomendacion": {
+  "Dirección y management": {
+   "No": 13.262,
+   "Sí": 4.578,
+   "ratio_No_vs_Si": 2.897,
+   "ratio_Deloitte": 2.999
+  },
+  "Cultura y compañeros": {
+   "No": 10.745,
+   "Sí": 4.666,
+   "ratio_No_vs_Si": 2.303,
+   "ratio_Deloitte": 2.135
+  },
+  "Rotación y estabilidad": {
+   "No": 2.517,
+   "Sí": 1.418,
+   "ratio_No_vs_Si": 1.775,
+   "ratio_Deloitte": 0.917
+  },
+  "Conciliación y flexibilidad": {
+   "No": 12.682,
+   "Sí": 10.986,
+   "ratio_No_vs_Si": 1.154,
+   "ratio_Deloitte": 1.054
+  },
+  "Carrera y promoción": {
+   "No": 4.453,
+   "Sí": 4.164,
+   "ratio_No_vs_Si": 1.069,
+   "ratio_Deloitte": 1.088
+  },
+  "Compensación y beneficios": {
+   "No": 18.006,
+   "Sí": 19.079,
+   "ratio_No_vs_Si": 0.944,
+   "ratio_Deloitte": 1.056
+  },
+  "Aprendizaje y proyectos": {
+   "No": 3.775,
+   "Sí": 5.139,
+   "ratio_No_vs_Si": 0.735,
+   "ratio_Deloitte": 0.566
+  },
+  "Carga de trabajo y horarios": {
+   "No": 16.263,
+   "Sí": 26.521,
+   "ratio_No_vs_Si": 0.613,
+   "ratio_Deloitte": 0.632
+  },
+  "Procesos y organización": {
+   "No": 1.936,
+   "Sí": 3.337,
+   "ratio_No_vs_Si": 0.58,
+   "ratio_Deloitte": 0.803
+  },
+  "Marca y prestigio": {
+   "No": 0.0,
+   "Sí": 0.0,
+   "ratio_No_vs_Si": NaN,
+   "ratio_Deloitte": NaN
+  }
+ }
+}
